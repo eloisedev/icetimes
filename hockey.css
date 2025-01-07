@@ -1,0 +1,202 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  padding: 0; /* No padding around the container */
+  margin: 0; /* No margin around the container */
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.item1 {
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(40, 38, 38, 0.58);
+  box-shadow: 6px 6px 12px #000000, -6px -6px 12px #302d2da0;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 20px;
+  flex: 0 0 auto;
+}
+.item2 {
+  box-sizing: border-box;
+  width: 190px;
+  height: 60px;
+  background: rgba(40, 38, 38, 0.58);
+  box-shadow: 6px 6px 12px #000000, -6px -6px 12px #302d2da0;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 20px;
+  flex: 0 0 auto;
+}
+.item1:hover, .item2:hover {
+  border: 1px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+
+.item1:active, .item2:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.bottomtag {
+  margin-top: 4%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #000000;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  text-align: center; /* Center-align text */
+  margin: 0;          /* Remove unnecessary margins */
+  font-size: 1rem;    /* Adjust font size if needed */
+}
+
+.section {
+  display: flex-box;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  width: 9em;
+  margin: 2%;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  background: rgba(57, 54, 54, 0.58);
+  z-index: 1;
+  box-shadow: 6px 6px 12px #000000,
+              -6px -6px 12px #2b2828a0;
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0b386f 0%, #507bbd 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button:hover::before {
+  width: 9em;
+ }
+ .header {
+  box-shadow: 0px 6px 12px #000000;
+  backdrop-filter: blur(10px);
+  border-radius: 0px;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: -10px;
+  background-color: #202020;
+  z-index: 2;
+ }
+ body {
+  background-color: #202020;
+  justify-content: center;
+  text-align: center;
+  font-family: "Outfit", serif;
+  color: rgb(255, 255, 255);
+ }
+ h1 {
+  margin: -10px;
+  color:rgb(71, 110, 155);
+ }
+ #text3d {
+  margin: 20px;
+ }
+h2 {
+  color:rgb(71, 110, 155);
+  margin-top: 10px;
+}
+.between {
+  height: 75px;
+  background: rgb(71, 110, 155);
+  margin: -10px;
+  box-shadow: 0px 6px 12px #060e34a5;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+.section {
+  box-shadow: 0px 6px 12px #000000;
+  backdrop-filter: blur(10px);
+  border-radius: 0px;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: -10px;
+  background-color: #202020;
+  z-index: 2;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.events {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  padding: 0; /* No padding around the container */
+  margin: 5px; /* No margin around the container */
+}
+html {
+  background-color: #202020;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.foot {
+  margin: 50px;
+}
