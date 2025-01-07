@@ -33,7 +33,7 @@ const eventsData = {
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/capitals/event-registration?date=2025-01-07&&sport_ids=31",
       },
       {
-        time: "2:30 PM",
+        time: "1:10 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-07&&sport_ids=30",
@@ -65,12 +65,6 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-08&&sport_ids=30",
-      },
-      {
         time: "4:20 PM",
         type: "Stick and Shoot",
         location: "Prince William Ice",
@@ -83,12 +77,6 @@ const eventsData = {
         type: "Stick and Shoot",
         location: "The St James",
         link: "https://www.thestjames.com/activities/springfield/ice-house?date=2025-01-09",
-      },
-      {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-09&&sport_ids=30",
       },
     ],
     "2025-01-10": [
@@ -103,12 +91,6 @@ const eventsData = {
         type: "Stick and Shoot",
         location: "Prince William Ice",
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
-      },
-      {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-10&&sport_ids=30",
       },
       {
         time: "4:20 PM",
@@ -131,7 +113,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-13&&sport_ids=30",
@@ -158,7 +140,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-14&&sport_ids=30",
@@ -184,12 +166,6 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-15&&sport_ids=30",
-      },
-      {
         time: "4:20 PM",
         type: "Stick and Shoot",
         location: "Prince William Ice",
@@ -210,12 +186,6 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-16&&sport_ids=30",
-      },
-      {
         time: "4:20 PM",
         type: "Stick and Shoot",
         location: "Prince William Ice",
@@ -234,12 +204,6 @@ const eventsData = {
         type: "Stick and Shoot",
         location: "Prince William Ice",
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
-      },
-      {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-17&&sport_ids=30",
       },
       {
         time: "4:20 PM",
@@ -268,12 +232,6 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-20&&sport_ids=30",
-      },
-      {
         time: "4:00 PM",
         type: "Stick and Shoot",
         location: "Prince William Ice",
@@ -295,7 +253,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-21&&sport_ids=30",
@@ -341,7 +299,7 @@ const eventsData = {
         link: "https://www.thestjames.com/activities/springfield/ice-house?date=2025-01-23",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-23&&sport_ids=30",
@@ -365,12 +323,6 @@ const eventsData = {
         type: "Stick and Shoot",
         location: "Prince William Ice",
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
-      },
-      {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-24&&sport_ids=30",
       },
       {
         time: "4:20 PM",
@@ -399,7 +351,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-27&&sport_ids=30",
@@ -425,7 +377,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-28&&sport_ids=30",
@@ -451,7 +403,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "3:10 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-29&&sport_ids=30",
@@ -477,7 +429,7 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
       {
-        time: "2:30 PM",
+        time: "12:00 PM",
         type: "Stick and Shoot",
         location: "Ashburn Ice House",
         link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-30&&sport_ids=30",
@@ -501,12 +453,6 @@ const eventsData = {
         type: "Stick and Shoot",
         location: "Prince William Ice",
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
-      },
-      {
-        time: "2:30 PM",
-        type: "Stick and Shoot",
-        location: "Ashburn Ice House",
-        link: "https://apps.daysmartrecreation.com/dash/x/#/online/ashburn/event-registration?date=2025-01-31&&sport_ids=30",
       },
       {
         time: "4:20 PM",
