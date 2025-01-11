@@ -99,6 +99,14 @@ const eventsData = {
         link: "https://www.frontline-connect.com/monthlysched.cfm?fac=pwice&facid=1&session=3&month=1",
       },
     ],
+     "2025-01-12": [
+      {
+        time: "10:10 AM",
+        type: "Stick and Shoot"
+        location: "Medstar",
+        link: "https://apps.daysmartrecreation.com/dash/x/#/online/capitals/event-registration?date=2025-01-12&&sport_ids=31",
+      },
+    ],
     "2025-01-13": [
       {
         time: "10:30 AM",
