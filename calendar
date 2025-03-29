@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="hockey.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Palanquin+Dark:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Dynamic Calendar</title>
+  <link rel="stylesheet" href="events.css">
+  <link rel="stylesheet" href="hockey.css">
+</head>
+<body>
+  <div class="header">
+<h1 id="text3d">Find Ice Times In NOVA</h1>
+  <button>stick and shoot</button>
+  <button>pickup</button>
+  <button>camps & lessons</button>
+  <p>Ice times can be potentially inacurate - this site is ran and created by one person. </p>
+    <p>For any updates/inacurate information reports email: eloiseedevito@gmail.com</p>
+  <h4><a href="index.html">Back to home</a></h4>
+</div>
+<div class="section">
+  <div class="calendar">
+    <div class="calendar-header">
+      <button id="prev-month">Previous</button>
+      <div id="month-year"></div>
+      <button id="next-month">Next</button>
+    </div>
+    <div class="calendar-body">
+      <div class="calendar-weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="calendar-dates"></div>
+    </div>
+  </div>
+  <div id="event-list">
+    <!-- event details appended -->
+  </div>
+  <div id="filter-container">
+  <label for="filter-time">Filter by Time:</label>
+  <select id="filter-time">
+    <option value="all">All</option>
+    <option value="morning">Morning (12 AM - 11:59 AM)</option>
+    <option value="afternoon">Afternoon (12 PM - 5:59 PM)</option>
+    <option value="evening">Evening (6 PM - 11:59 PM)</option>
+  </select>
+
+  <label for="filter-location">Filter by Location:</label>
+  <select id="filter-location">
+    <option value="all">All</option>
+    <option value="Prince William Ice">Prince William Ice</option>
+    <option value="Medstar">Medstar</option>
+    <option value="Skatequest">Skatequest</option>
+    <option value="Ashburn">Ashburn</option>
+    <option value="Loudon">Loudon</option>
+    <option value="The St James">The St James</option>
+  </select>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
