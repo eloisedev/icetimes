@@ -1,38 +1,49 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align items to the left */
-  flex-wrap: nowrap; /* Prevent wrapping */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
-  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
-  scroll-behavior: smooth; /* Smooth scrolling */
-  padding: 0; /* No padding around the container */
-  margin: 0; /* No margin around the container */
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
-
+.ice {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 6px 6px 12px #c6c5c0, -6px -6px 12px #f1efea;
+  background-color: #FAF9F6;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.ice:hover {
+  border: 1px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+}
 .container::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in WebKit browsers */
+  display: none;
 }
 
 .item1 {
   box-sizing: border-box;
   width: 190px;
   height: 254px;
-  background: rgba(40, 38, 38, 0.58);
-  box-shadow: 6px 6px 12px #000000, -6px -6px 12px #302d2da0;
+  background: #FAF9F6;
+  box-shadow: 6px 6px 12px #c6c5c0, -6px -6px 12px #f1efea;
   backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: center;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   user-select: none;
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: #000000;
   overflow: hidden;
   margin: 20px;
   flex: 0 0 auto;
@@ -41,20 +52,20 @@
   box-sizing: border-box;
   width: 190px;
   height: 60px;
-  background: rgba(40, 38, 38, 0.58);
-  box-shadow: 6px 6px 12px #000000, -6px -6px 12px #302d2da0;
+  background: #FAF9F6;
+  box-shadow: 6px 6px 12px #c6c5c0, -6px -6px 12px #f1efea;
   backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: center;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   user-select: none;
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: #000000;
   overflow: hidden;
   margin: 20px;
   flex: 0 0 auto;
@@ -72,16 +83,16 @@
   margin-top: 4%;
   padding-bottom: 20px;
   padding-top: 10px;
-  border-top: 2px solid #000000;
+  border-top: 2px solid #c6c5c0;
 }
 .container::-webkit-scrollbar {
   display: none;
 }
 
 p {
-  text-align: center; /* Center-align text */
-  margin: 0;          /* Remove unnecessary margins */
-  font-size: 1rem;    /* Adjust font size if needed */
+  text-align: center; 
+  margin: 0;          
+  font-size: 1rem;    
 }
 
 .section {
@@ -99,12 +110,12 @@ button {
   font-family: inherit;
   border: none;
   position: relative;
-  color: white;
+  color: #000000;
   overflow: hidden;
-  background: rgba(57, 54, 54, 0.58);
+  background: #FAF9F6;
   z-index: 1;
-  box-shadow: 6px 6px 12px #000000,
-              -6px -6px 12px #2b2828a0;
+  box-shadow: 6px 6px 12px #c6c5c0,
+              -6px -6px 12px #f1efea;
  }
  
  button::before {
@@ -115,7 +126,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #0b386f 0%, #507bbd 100%);
+  background-image: linear-gradient(to right, #f1efea 0%, #c6c5c0 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
@@ -125,51 +136,52 @@ button {
   width: 9em;
  }
  .header {
-  box-shadow: 0px 6px 12px #000000;
+  box-shadow: 0px 6px 12px #c6c5c0;
   backdrop-filter: blur(10px);
   border-radius: 0px;
   justify-content: center;
   text-align: center;
   padding: 5%;
   margin: -10px;
-  background-color: #202020;
+  background-color: #FAF9F6;
   z-index: 2;
  }
  body {
-  background-color: #202020;
+  background-color: #FAF9F6;
   justify-content: center;
   text-align: center;
   font-family: "Outfit", serif;
-  color: rgb(255, 255, 255);
+  color: #000000;
  }
  h1 {
   margin: -10px;
-  color:rgb(71, 110, 155);
+  color:#000000;
  }
  #text3d {
   margin: 20px;
+  font-size: 500%;
  }
 h2 {
-  color:rgb(71, 110, 155);
+  color:#000000;
   margin-top: 10px;
 }
 .between {
   height: 75px;
-  background: rgb(71, 110, 155);
+  background: #FAF9F6;
   margin: -10px;
-  box-shadow: 0px 6px 12px #060e34a5;
+  box-shadow: 0px 6px 12px #f1efea;
   backdrop-filter: blur(10px);
   z-index: 1;
 }
 .section {
-  box-shadow: 0px 6px 12px #000000;
+  box-shadow: 0px 6px 12px #c6c5c0;
   backdrop-filter: blur(10px);
   border-radius: 0px;
   justify-content: center;
   text-align: center;
   padding: 5%;
   margin: -10px;
-  background-color: #202020;
+  background-color: #FAF9F6;
   z-index: 2;
 }
 .container2 {
@@ -181,20 +193,20 @@ h2 {
   height: 200px;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align items to the left */
-  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: flex-start; 
+  flex-wrap: nowrap;
   overflow-x: auto;
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
-  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
-  scroll-behavior: smooth; /* Smooth scrolling */
-  padding: 0; /* No padding around the container */
-  margin: 5px; /* No margin around the container */
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scroll-behavior: smooth; 
+  padding: 0; 
+  margin: 5px; 
 }
 html {
-  background-color: #202020;
+  background-color: #FAF9F6;
 }
 a {
-  color: white;
+  color: #000000;
   text-decoration: none;
 }
 .foot {
